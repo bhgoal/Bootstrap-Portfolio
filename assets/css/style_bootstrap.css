@@ -21,3 +21,28 @@ html {
     line-height: 60px; /* Vertically center the text there */
     background-color: #343a40;
 }
+
+.img-thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+
+.imgCaption {
+    position:absolute;
+    bottom:10%;
+    right:0;
+    background:rgba(196, 196, 196, 0.5);
+    width:100%;
+    height:30%;
+    padding:2%;
+    display: initial;
+    color:#fff !important;
+    z-index:2;
+}
+
+.pCenter {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
